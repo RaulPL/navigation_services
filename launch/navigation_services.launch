@@ -1,0 +1,6 @@
+<launch>
+	<node name="battery_inspector_node" pkg="navigation_service" type="battery_inspector_node" />
+	<node name="door_checker_node" pkg="navigation_service" type="door_checker_node" />
+	<node name="pose_sender_node" pkg="navigation_service" type="pose_sender_node" />
+	<node name="goal_parser_node" pkg="navigation_service" type="goal_parser_node" />
+</launch>
