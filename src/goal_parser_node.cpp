@@ -17,7 +17,7 @@ int main(int argc, char** argv)
     ros::init(argc, argv, "goal_parser_node");
 
     string places_path = ros::package::getPath("navigation_services");
-    places_path = places_path + "/resource/arturo_test.yaml";  //configuration file created with rqt_map_topo
+    places_path = places_path + "/resource/lab_413.yaml";  //configuration file created with rqt_map_topo
     GoalParser gp(places_path);
 
     ros::NodeHandle n;
