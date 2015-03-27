@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 {
     ros::init(argc, argv, "door_checker_node");
 
-    string door_file = ros::package::getPath("navigation_service");
+    string door_file = ros::package::getPath("navigation_services");
     door_file = door_file + "/resource/door_params.yaml";  //configuration file of the average dist and aperture
     DoorChecker dc(door_file);
 
